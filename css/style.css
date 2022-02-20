@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Mikhak";
+  src: url(./../fonts/Mikhak-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Mikhak";
+  src: url(./../fonts/Mikhak-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Mikhak";
+  src: url(./../fonts/Mikhak-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+body,
+input,
+button {
+  font-family: "Mikhak";
+}
+p {
+  text-align: justify;
+}

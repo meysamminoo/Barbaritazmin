@@ -7,19 +7,363 @@
 
     <!-- Bootstrap CSS -->
     <link href="./css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap-icons.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
 
     <title>باربری تضمین</title>
   </head>
   <body>
+    <!--! header -->
+    <header class="container-fluid bg-warning sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="https://barbaritazmin.com">
+              <img
+                src="./images/logo.png"
+                alt=""
+                width="155"
+                height="50"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="https://barbaritazmin.com"
+                  >
+                    <i class="bi bi-house-fill"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> درباره ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">خدمات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شعب باربری</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تماس با ما</a>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-dark"> رزرو اینترنتی </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ! slider -->
+    <section class="container-fluid">
+      <div class="container mt-3">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+              <img
+                src="./images/slider-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>اسلاید شماره یک</h5>
+                <p>
+                  توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/slider-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>اسلایدر شماره دو</h5>
+                <p>
+                  توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/slider-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>بهترین اسلایدر دنیا</h5>
+                <p>
+                  توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! About us -->
+    <section class="container-fluid mt-5 mb-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img
+              src="./images/test.jpg"
+              class="img-fluid rounded-3"
+              alt="درباره ما"
+            />
+          </div>
+          <div class="col-md-7">
+            <h3>درباره ما</h3>
+            <p class="text-justify">
+              باربری و اتوبار تضمین ارائه دهنده بهترین خدمات و سرویس های ویژه
+              حمل بار و وسایل خانه و اداره با بهترین کامیون های مسقف و پتودار به
+              صورت شبانه روزی ، جهت انجام هر نوع اثاث کشی لوازم منزل و اداری به
+              تمام نقاط کشور آماده همکاری است. باربری تضمین برای اثاث کشی لوازم
+              و اثاث شما با هر شکل، اندازه، درجه حساسیت و وزنی آماده است. تا
+              بدون خستگی و تاخیر بار شما را در سراسر تهران و شهرستان ها هم جابجا
+              کند. با خدمات باربری و اتوبار تضمین سریعترین و بهترین تجربه اثاث
+              کشی را در استان تهران و البرز تجربه کنید. یک باربری بدون سروصدا
+              وخسارت به لوازم و اثاث منزل خود را با باربری تضمین تجربه کنید.
+              باربری تضمین سریعترین باربری در تهران و البرز است. باربری تضمین با
+              توجه به اهمیت و ارزشی که برای شما همشهریان گرامی ساکن در تهران و
+              البرز قائل است. بهترین و تمیز ترین خدمات باربری و اتوبار را برای
+              شما همشهریان گرامی انجام می دهد. باربری تضمین باربری و اتوبار در
+              تهران و البرز با بهترین کیفیت و صورت تضمینی برای شما همشهری گرامی
+              انجام خواهد داد. باربری در تهران و البرز با بهترین تجربه حمل بار
+              در کل مناطق تهران و البرز با بیش از 10 سال تجربه باربری و اثاث کشی
+              که می تواند به بهترین شکل لوازم ارزشمند و قیمتی شما را انجام دهد.
+              باربری در تهران و البرز را با یک باربری نمونه و تک انجام دهید.
+              باربری تضمین با بسته بندی لوازم و اثاث شما به روش اروپایی وانتقال
+              سریع و بدون شکستن لوازم محل کار و منزل شما را تضمین می کند، با ما
+              همراه باشید.
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center mt-5">
+          <div class="col-md-7">
+            <h3>درباره ما</h3>
+            <p class="text-justify">
+              باربری فقط باربری تضمین کلیه امور خدماتی در گروه باربری ما امکان
+              پذیر میباشد،اعم از خاور، وانت، نیسان، تریلی، متخصص در بازوبسته
+              کردن یخچال های خانگی وصنعتی،بوفه،تردمیل،تختهای بغل بازشو،با
+              کارگران مجرب و با اخلاق درتهران و البرز آماده خدمت رسانی است.
+              باربری تضمین با توجه به تغییرات و به روز شدن امکانات و تجهیزات
+              باربری همواره می کوشد تا خود را با این تغییرات منطبق کرده و بهترین
+              خدمت را به شما همشهریان گرامی ارائه دهد. باربری تضمین با ناوگانی
+              مجهز و آماده در جهت رفاه حال شما همشهری گرامی می کوشد تا در زمینه
+              باربری و اثاث کشی راحت و آسوده خاطر باشید. باربری تضمین با تمام
+              توان و قدرت با استفاده از کارگران جوان و نیرومند و با سلیقه در
+              زمینه اثاث کشی وباربری آماده خدمت رسانی به شماست . علاوه بر این
+              باربری تضمین ، حمل بار های شما از غرب و شمال کشور به تهران و کرج
+              را به عهده می گیرد.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="./images/test.jpg"
+              class="img-fluid rounded-3"
+              alt="درباره ما"
+            />
+          </div>
+        </div>
+        <div class="row align-items-center mt-5">
+          <div class="col-md-5">
+            <img
+              src="./images/test.jpg"
+              class="img-fluid rounded-3"
+              alt="درباره ما"
+            />
+          </div>
+          <div class="col-md-7">
+            <h3>درباره ما</h3>
+            <p>
+              باربری فقط باربری تضمین کلیه امور خدماتی در گروه باربری ما امکان
+              پذیر میباشد،اعم از خاور، وانت، نیسان، تریلی، متخصص در بازوبسته
+              کردن یخچال های خانگی وصنعتی،بوفه،تردمیل،تختهای بغل بازشو،با
+              کارگران مجرب و با اخلاق درتهران و البرز آماده خدمت رسانی است.
+              باربری تضمین با توجه به تغییرات و به روز شدن امکانات و تجهیزات
+              باربری همواره می کوشد تا خود را با این تغییرات منطبق کرده و بهترین
+              خدمت را به شما همشهریان گرامی ارائه دهد. باربری تضمین با ناوگانی
+              مجهز و آماده در جهت رفاه حال شما همشهری گرامی می کوشد تا در زمینه
+              باربری و اثاث کشی راحت و آسوده خاطر باشید. باربری تضمین با تمام
+              توان و قدرت با استفاده از کارگران جوان و نیرومند و با سلیقه در
+              زمینه اثاث کشی وباربری آماده خدمت رسانی به شماست . علاوه بر این
+              باربری تضمین ، حمل بار های شما از غرب و شمال کشور به تهران و کرج
+              را به عهده می گیرد.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Services us -->
+    <section class="container-fluid">
+      <div class="container text-center">
+        <h2>خدمات ما</h2>
+        <p class="text-center">
+          هدف ما رضایت شماست، کافیست فقط یک بار ، با ما کار کنید تا همیشه با ما
+          باشید
+        </p>
+        <div class="row">
+          <div class="card-group">
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-group">
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./images/test.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! center barbari -->
+    <section class="container-fluid">
+      <div class="container"></div>
+    </section>
+
+    <!-- !Footer -->
+    <footer class="container-fluid mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 bg-info"></div>
+          <div class="col-4 bg-danger">2</div>
+          <div class="col-4 bg-primary">3</div>
+        </div>
+        <div class="row">
+          <div class="col-12">copy right</div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
