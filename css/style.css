@@ -25,13 +25,21 @@ button {
   font-family: "Mikhak";
   font-weight: 500;
 }
+a {
+  text-decoration: none;
+}
 p {
   text-align: justify;
 }
 .about-us {
   background-color: #f6f6f6;
 }
-
+.service i {
+  font-size: 4rem;
+}
+.service h3 {
+  font-weight: 700;
+}
 /* Off canvas */
 .canvas {
   width: 60px;
@@ -46,4 +54,17 @@ p {
 }
 .canvas .bi-telephone {
   font-size: 1.5rem;
+}
+
+/* footer */
+.list-footer {
+  font-size: 1.2rem;
+}
+.list-footer li a {
+  color: #212529;
+  transition: all 0.4s ease;
+}
+.list-footer li a:hover {
+  color: #212529;
+  padding-right: 1rem;
 }
