@@ -23,7 +23,27 @@ body,
 input,
 button {
   font-family: "Mikhak";
+  font-weight: 500;
 }
 p {
   text-align: justify;
+}
+.about-us {
+  background-color: #f6f6f6;
+}
+
+/* Off canvas */
+.canvas {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+}
+.canvas .bi-telephone {
+  font-size: 1.5rem;
 }

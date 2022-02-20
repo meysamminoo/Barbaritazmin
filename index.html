@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--! header -->
-    <header class="container-fluid bg-warning sticky-top">
+    <header class="container-fluid bg-warning bg-gradient sticky-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid p-0">
@@ -40,17 +40,17 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                 <li class="nav-item">
                   <a
                     class="nav-link active"
                     aria-current="page"
                     href="https://barbaritazmin.com"
                   >
-                    <i class="bi bi-house-fill"></i>
+                    صفحه اصلی
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item position-relative">
                   <a class="nav-link" href="#"> درباره ما</a>
                 </li>
                 <li class="nav-item">
@@ -72,7 +72,7 @@
 
     <!-- ! slider -->
     <section class="container-fluid">
-      <div class="container mt-3">
+      <div class="container py-5">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -109,7 +109,7 @@
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>اسلاید شماره یک</h5>
-                <p>
+                <p class="text-center">
                   توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
                 </p>
               </div>
@@ -122,7 +122,7 @@
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>اسلایدر شماره دو</h5>
-                <p>
+                <p class="text-center">
                   توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
                 </p>
               </div>
@@ -135,7 +135,7 @@
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>بهترین اسلایدر دنیا</h5>
-                <p>
+                <p class="text-center">
                   توضیحاتی درباره این اسلاید یا خلاصه مطلبی یا هر مورد دیگری
                 </p>
               </div>
@@ -164,7 +164,7 @@
     </section>
 
     <!-- ! About us -->
-    <section class="container-fluid mt-5 mb-5">
+    <section class="container-fluid py-5 about-us">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5">
@@ -259,7 +259,7 @@
     </section>
 
     <!-- ! Services us -->
-    <section class="container-fluid">
+    <section class="container-fluid py-5">
       <div class="container text-center">
         <h2>خدمات ما</h2>
         <p class="text-center">
@@ -344,12 +344,12 @@
     </section>
 
     <!-- ! center barbari -->
-    <section class="container-fluid">
+    <section class="container-fluid py-5">
       <div class="container"></div>
     </section>
 
     <!-- !Footer -->
-    <footer class="container-fluid mt-5">
+    <footer class="container-fluid bg-warning bg-gradient">
       <div class="container">
         <div class="row">
           <div class="col-4 bg-info"></div>
@@ -361,6 +361,40 @@
         </div>
       </div>
     </footer>
+
+    <!-- ! Off Canvas -->
+    <button
+      class="btn btn-primary canvas"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample"
+      aria-controls="offcanvasExample"
+    >
+      <i class="bi bi-telephone"></i>
+    </button>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">تماس با ما</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="./js/bootstrap.bundle.min.js"></script>
