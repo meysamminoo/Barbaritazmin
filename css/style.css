@@ -34,6 +34,9 @@ p {
 .about-us {
   background-color: #f6f6f6;
 }
+.about-us-white {
+  background-color: #fff;
+}
 .service i {
   font-size: 4rem;
 }
