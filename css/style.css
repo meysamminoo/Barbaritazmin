@@ -51,7 +51,8 @@ h2 {
   margin-top: 15px;
 }
 /* Off canvas */
-.canvas {
+.canvas,
+.back-to-top {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -62,10 +63,19 @@ h2 {
   left: 25px;
   bottom: 25px;
 }
-.canvas .bi-telephone {
+
+.canvas {
+  left: 25px;
+  bottom: 25px;
+}
+.back-to-top {
+  right: 25px;
+  bottom: 25px;
+}
+.canvas .bi-telephone,
+.back-to-top {
   font-size: 1.5rem;
 }
-
 /* footer */
 .list-footer {
   font-size: 1.2rem;
