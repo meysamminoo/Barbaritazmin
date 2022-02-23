@@ -9,8 +9,13 @@
     <link href="./css/bootstrap.rtl.min.css" rel="stylesheet" />
     <link href="./css/bootstrap-icons.css" rel="stylesheet" />
     <link href="./css/hover-min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"
+    />
     <link href="./css/style.css" rel="stylesheet" />
 
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <title>باربری تضمین</title>
   </head>
   <body>
@@ -51,14 +56,14 @@
                     صفحه اصلی
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">خدمات</a>
+                </li>
                 <li class="nav-item position-relative">
-                  <a class="nav-link" href="#"> درباره ما</a>
+                  <a class="nav-link" href="#about_us"> درباره ما</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">خدمات</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">شعب باربری</a>
+                  <a class="nav-link" href="#center_barbari">شعب باربری</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">تماس با ما</a>
@@ -205,7 +210,7 @@
     </section>
 
     <!-- ! Services us -->
-    <section class="container-fluid py-5 service bg-gray">
+    <section class="container-fluid  services bg-gray" id="services">
       <div class="container text-center">
         <h2>خدمات ما</h2>
         <p class="text-center">
@@ -256,7 +261,7 @@
     </section>
 
     <!-- ! About us -->
-    <section class="container-fluid py-5">
+    <section class="container-fluid " id="about_us">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5">
@@ -288,7 +293,7 @@
       </div>
     </section>
 
-    <section class="container-fluid py-5 bg-gray">
+    <section class="container-fluid  bg-gray custom">
       <div class="container">
         <div class="row align-items-center mt-5">
           <div class="col-md-7">
@@ -312,7 +317,7 @@
               role="group"
               aria-label="Basic mixed styles example"
             >
-              <button type="button" class="btn btn-primary bg-gradient">
+              <button type="button" class="btn btn-primary bg-gradient hvr-pop">
                 <a
                   class="text-light"
                   href="https://barbaritazmin.ir/%d9%81%d8%b1%d9%85-%d8%b1%d8%b2%d8%b1%d9%88-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/"
@@ -320,7 +325,7 @@
                   رزرو اینترنتی
                 </a>
               </button>
-              <button type="button" class="btn btn-warning bg-gradient">
+              <button type="button" class="btn btn-warning bg-gradient hvr-pop">
                 <a href="tel:+982144276388" class="text-dark">
                   مشاوره رایگان
                 </a>
@@ -334,7 +339,7 @@
       </div>
     </section>
 
-    <section class="container-fluid py-5">
+    <section class="container-fluid custom">
       <div class="container">
         <div class="row align-items-center mt-5">
           <div class="col-md-5">
@@ -363,7 +368,7 @@
     </section>
 
     <!-- ! center barbari -->
-    <section class="container-fluid py-5">
+    <section class="container-fluid bg-gray" id="center_barbari">
       <div class="container"></div>
     </section>
 
@@ -376,43 +381,35 @@
               تلفن های تماس
             </h4>
             <p>کارشناسان باربری تضمین به صورت شبانه روزی پاسخگوی شما هستند</p>
-            <ul class="list-group list-group-horizontal">
-              <li class="list-group-item">
-                <a href="#">021-65190543</a>
+            <ul class="nav align-items-start ">
+              <li class="nav-item">
+                <a class="nav-link hvr-buzz-out" href="tel:+982165190543">021-65190543</a>
               </li>
-              <li class="list-group-item"><a href="#">021-65190526</a></li>
-              <li class="list-group-item"><a href="#">021-44276388</a></li>
-            </ul>
-            <ul class="list-group list-group-horizontal-sm">
-              <li class="list-group-item"><a href="#">021-22638985</a></li>
-              <li class="list-group-item"><a href="#">021-88747681</a></li>
-              <li class="list-group-item"><a href="#">026-36270643</a></li>
-            </ul>
-            <ul class="list-group list-group-horizontal-sm">
-              <li class="list-group-item"><a href="#">026-36270624</a></li>
-            </ul>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982165190526">021-65190526</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982144276388">021-44276388</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982122638985">021-22638985</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982188747681">021-88747681</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982636270643">026-36270643</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+982636270624">026-36270624</a></li>
+              <li class="nav-item"><a class="nav-link hvr-buzz-out" href="tel:+989129565339">09129565339</a></li>
           </div>
           <div class="col-4">
             <h4 class="border-bottom pb-2 border-primary border-3">
               لینک های مفید
             </h4>
             <ul class="list-unstyled list-footer">
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
+              <li><a href="https://barbaritazmin.ir/">وبلاگ باربری تضمین</a></li>
+              <li><a href="https://barbaritazmin.ir/%d9%81%d8%b1%d9%85-%d8%b1%d8%b2%d8%b1%d9%88-%d8%a7%db%8c%d9%86%d8%aa%d8%b1%d9%86%d8%aa%db%8c/">رزرو اینترنتی</a></li>
+              <li><a href="https://bar-tehran.com/">تهران بار</a></li>
+              
             </ul>
           </div>
           <div class="col-4">
-            <h4 class="border-bottom pb-2 border-primary border-3">مقالات</h4>
-            <ul class="list-unstyled list-footer">
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-              <li><a href="#">مورد اول</a></li>
-            </ul>
+            <h4 class="border-bottom pb-2 border-primary border-3">
+              آدرس دفتر
+            </h4>
+            <p>شهریار - شهر جدید اندیشه - خیابان طالقانی</p>
+            <div id="map" class="rounded-3"></div>
           </div>
         </div>
         <div class="row border-top py-3 border-primary">
