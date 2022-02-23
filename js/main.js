@@ -19,3 +19,28 @@ function showMap(lat, lng) {
   // Adding marker to the map
   marker.addTo(map);
 }
+
+// todo; button back to top
+const backToTop = document.getElementById("back-to-top");
+
+backToTop.addEventListener("click", backToTopHandler);
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+}
+
+function backToTopHandler() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

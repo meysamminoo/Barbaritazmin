@@ -36,12 +36,10 @@ p {
 h2 {
   font-weight: 700;
 }
-.bg-white {
-  background-color: #fff;
-}
 .bg-gray {
   background-color: #f6f6f6;
 }
+/* services */
 .services i {
   font-size: 4rem;
 }
@@ -50,7 +48,7 @@ h2 {
   font-size: 22px;
   margin-top: 15px;
 }
-/* Off canvas */
+/* Off canvas and back to top*/
 .canvas,
 .back-to-top {
   width: 60px;
@@ -63,7 +61,6 @@ h2 {
   left: 25px;
   bottom: 25px;
 }
-
 .canvas {
   left: 25px;
   bottom: 25px;
@@ -75,6 +72,9 @@ h2 {
 .canvas .bi-telephone,
 .back-to-top {
   font-size: 1.5rem;
+}
+.back-to-top {
+  transition: display 0.5s linear;
 }
 /* footer */
 .list-footer {
@@ -108,7 +108,3 @@ h2 {
 .custom {
   padding: 100px 0;
 }
-
-/* @media screen and (max-width: 992px) {
-
-} */
