@@ -24,6 +24,8 @@ input,
 button {
   font-family: "Mikhak";
   font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
 }
 a {
   text-decoration: none;
@@ -31,16 +33,16 @@ a {
 p {
   text-align: justify;
 }
-.about-us {
-  background-color: #f6f6f6;
-}
-.about-us-white {
+.bg-white {
   background-color: #fff;
+}
+.bg-gray {
+  background-color: #f6f6f6;
 }
 .service i {
   font-size: 4rem;
 }
-.service h3 {
+.service h4 {
   font-weight: 700;
 }
 /* Off canvas */
