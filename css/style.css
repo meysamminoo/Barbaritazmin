@@ -64,6 +64,7 @@ h2 {
 .canvas {
   left: 25px;
   bottom: 25px;
+  z-index: 1000;
 }
 .back-to-top {
   right: 25px;
