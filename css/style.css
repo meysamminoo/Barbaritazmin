@@ -125,3 +125,9 @@ h2 {
     height: 200px;
   }
 }
+
+/* error 404 */
+.error-404 {
+  font-size: 200px;
+  padding: 100px 0;
+}
